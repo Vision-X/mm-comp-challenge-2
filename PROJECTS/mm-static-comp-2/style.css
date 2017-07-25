@@ -1,0 +1,256 @@
+body {
+  background-color: #545454;
+  height: 180vh;
+  margin: 0;
+  width: 100%;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Marvel', sans-serif;
+  margin: 0;
+}
+h1,
+p,
+q{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 2%;
+}
+
+p {
+  font-size: 14px;
+}
+
+header {
+  background-color: black;
+  height: 200px;
+}
+
+.logo-header {
+  background: url('assets/Guardians+of+the+Galaxy+logo.png') no-repeat;
+  background-size: cover;
+  height: 120px;
+  margin-top: 40px;
+  margin-left: 75%;
+  width: 24%;
+}
+
+article {
+  height: 350px;
+}
+
+.header-t {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+/*.admin-un {
+  display: inline-block;
+  float: right;
+}*/
+
+header-b {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav {
+  align-content: space-around;
+  display: flex;
+  margin-left: 2%;
+  margin-top: -40px;
+}
+
+.nav {
+  margin: 0 25px 0 0;
+  align-items: flex-end;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start space-around;
+}
+
+.card-body h4 {
+  font-size: 22px;
+}
+
+h2 {
+  margin-left: 10px;
+  margin-top: 22px;
+  font-size: 36px;
+  color: white;
+}
+
+h5 {
+  margin-top: 6%;
+}
+
+.card {
+  background-color: #5E2E90;
+  box-shadow: 3px 3px black;
+  height: 60vh;
+  margin-top: 2%;
+  width: 24%;
+
+}
+
+.card-body {
+  padding: 0 10px 10px 10px;
+}
+
+.views,
+.view-count {
+  color: white;
+  margin: 2% 2%;
+}
+
+.views p {
+  margin: 0;
+}
+
+.view-count {
+  font-size: 34px;
+}
+
+
+.svg-holder {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 87%;
+  padding-top: 3%;
+  width: 10px;
+}
+
+.about-body {
+  background-color: gray;
+  padding: 2%;
+}
+
+q {
+  font-size: 12px;
+}
+
+/* image insertions */
+
+.main-pic1 {
+  background: url('assets/Quill-Starlord.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic1:hover {
+  background: url('assets/starlord-finger-giffff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic2 {
+  background: url('assets/guardians-of-the-galaxy-gamora-101682-101718-640x320.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic2:hover {
+  background: url('assets/gamora-3rd-gifff.webp') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic3 {
+  background: url('assets/Guardians-Galaxy-2-Trailer-Rocket-Raccoon.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic3:hover {
+  background: url('assets/rocket-giffff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic4 {
+  background: url('assets/groot-pic.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic4:hover {
+  background: url('assets/groot-2nd-giffff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic5 {
+  background: url('assets/guardians-of-the-galaxy-david-bautista-drax.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic5:hover {
+  background: url('assets/drax-giffff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic6 {
+  background: url('assets/guardians-of-the-galaxy-2-nebula-should-kill-thanos-in-avengers-infinity-war-but-will-she-die-doing-it.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic6:hover {
+  background: url('assets/Nebula-gifff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic7 {
+  background: url('assets/Ronan_the_Accuser.png') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic7:hover {
+  background: url('assets/ronan-blasting-giffff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic8 {
+  background: url('assets/guardians-thanos-space.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
+
+.main-pic8:hover {
+  background: url('assets/Thanos-rotate-gifff.gif') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+}
